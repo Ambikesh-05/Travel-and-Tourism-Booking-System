@@ -9,7 +9,6 @@ A **full-stack web application** developed using **PHP, MySQL, HTML, CSS, and Ja
 ### User Side:
 - Browse available tours and packages
 - Book tours through a simple form
-- View booking history
 
 ### Admin Side:
 - Add, edit, and delete tours
@@ -21,13 +20,13 @@ A **full-stack web application** developed using **PHP, MySQL, HTML, CSS, and Ja
 ## 🌐 Screenshots
 
 ### Homepage
-![Homepage](images/Maldives.jpg)
+![Homepage](Images/Maldives.jpg)
 
 ### Admin Panel
-![Admin Panel](images/admin-panel.png)
+![Admin Panel](Images/admin-panel.jpg)
 
 ### Booking Form
-![Booking Form](images/booking-form.png)
+![Booking Form](Images/booking-form.jpg)
 
 ---
 
