@@ -26,7 +26,7 @@ A **full-stack web application** developed using **PHP, MySQL, HTML, CSS, and Ja
 ![Admin Panel](Images/Adminpannel-screenshot.png)
 
 ### Booking Form
-![Booking Form](Images/Bookingform-screenshot.png)
+![Booking Form](Images/BookingForm-screenshot.png)
 
 ---
 
