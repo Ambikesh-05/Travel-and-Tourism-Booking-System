@@ -1,6 +1,6 @@
 # 🌍 Travel & Tourism Booking System
 
-A **full-stack web application** built using **PHP, MySQL, HTML, CSS, and JavaScript** that allows users to explore, book, and manage travel tours efficiently.  
+A **full-stack web application** built using **PHP, MySQL, HTML, CSS, and JavaScript** that allows users to explore and book tours efficiently.  
 The system includes **secure user authentication** and a powerful **admin panel** for complete tour and booking management.
 
 ---
@@ -9,7 +9,7 @@ The system includes **secure user authentication** and a powerful **admin panel*
 
 This project follows a **step-by-step user journey**:
 1. User **logs in** (or registers if not already registered)
-2. User **views available tours**
+2. User **view tours**
 3. User clicks **Book Now**
 4. A **booking form** opens
 5. After submitting the form, the **tour is successfully booked**
@@ -24,7 +24,7 @@ The admin manages tours, users, and bookings from a separate dashboard.
 - User must **login first**
 - If the user does not have an account, they can **register**
 - After login, the user can:
-  - View available tours
+  - View tours
   - Click **Book Now** on any tour
   - Fill out the booking form
   - Successfully book the tour
@@ -45,7 +45,7 @@ The admin manages tours, users, and bookings from a separate dashboard.
 
 ### User Features:
 - Secure Login & Registration
-- View available tour packages
+- View tour packages
 - Book tours through a booking form
 - Simple and user-friendly interface
 
