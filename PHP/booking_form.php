@@ -21,25 +21,21 @@ $tour_id = intval($_GET['id']);
 
 <head>
     <title>Booking Form</title>
+
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', sans-serif;
-
-            /* Beautiful Travel Background */
             background: url('../Images/Bookingformbg.jpg') no-repeat center center/cover;
-
-
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-
             position: relative;
         }
 
-        /* Dark Transparent Overlay */
+        /* Overlay */
         body::before {
             content: "";
             position: absolute;
@@ -50,17 +46,13 @@ $tour_id = intval($_GET['id']);
 
         .booking-container {
             width: 350px;
-            /* Smaller form */
             padding: 25px;
             border-radius: 15px;
-
             position: relative;
             z-index: 2;
-
             background: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(10px);
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-
             animation: fadeIn 0.9s ease-in-out;
         }
 
@@ -69,7 +61,6 @@ $tour_id = intval($_GET['id']);
             color: #fff;
             font-size: 26px;
             margin-bottom: 12px;
-            text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
         }
 
         label {
@@ -86,15 +77,11 @@ $tour_id = intval($_GET['id']);
             width: 100%;
             padding: 10px;
             margin: 7px 0 13px 0;
-
             border-radius: 8px;
             border: none;
             outline: none;
-
             background: rgba(255, 255, 255, 0.9);
             font-size: 15px;
-
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
         }
 
         textarea {
@@ -106,21 +93,34 @@ $tour_id = intval($_GET['id']);
             padding: 12px;
             font-size: 17px;
             border: none;
-
             background: linear-gradient(135deg, #00b4d8, #0077b6);
             color: white;
-
             border-radius: 10px;
             cursor: pointer;
             font-weight: bold;
-
             transition: 0.3s;
-            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
         }
 
         button:hover {
             transform: scale(1.05);
-            background: linear-gradient(135deg, #0077b6, #00b4d8);
+        }
+
+        /* ===== SAME BACK TO HOME BUTTON ===== */
+        .back-btn {
+            display: block;
+            margin: 18px auto 0;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #ffd700, #ffb703);
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            width: max-content;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.05);
         }
 
         @keyframes fadeIn {
@@ -168,11 +168,12 @@ $tour_id = intval($_GET['id']);
             <textarea name="address" required></textarea>
 
             <button type="submit">Confirm Booking</button>
-
         </form>
+
+        <!-- BACK TO HOME BUTTON -->
+        <a href="../index.php" class="back-btn">← Back to Home</a>
 
     </div>
 
 </body>
-
 </html>
