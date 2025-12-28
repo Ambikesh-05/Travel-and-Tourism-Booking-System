@@ -20,13 +20,13 @@ A **full-stack web application** developed using **PHP, MySQL, HTML, CSS, and Ja
 ## 🌐 Screenshots
 
 ### Homepage
-![Homepage](Images/Maldives.jpg)
+![Homepage](Images/Homepage-screenshot.png)
 
 ### Admin Panel
-![Admin Panel](Images/Banaras.jpg)
+![Admin Panel](Images/Adminpannel-screenshot.png)
 
 ### Booking Form
-![Booking Form](Images/booking-form.jpg)
+![Booking Form](Images/Bookingform-screenshot.png)
 
 ---
 
