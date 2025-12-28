@@ -80,11 +80,3 @@ The admin manages tours, users, and bookings from a separate dashboard.
 - **Version Control:** Git & GitHub  
 
 ---
-
-## ⚙ Installation & Setup
-
-Follow these steps to run the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ambikesh-05/Travel-And-Tourism-Booking-System.git
