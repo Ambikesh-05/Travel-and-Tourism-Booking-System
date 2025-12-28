@@ -23,7 +23,7 @@ A **full-stack web application** developed using **PHP, MySQL, HTML, CSS, and Ja
 ![Homepage](Images/Maldives.jpg)
 
 ### Admin Panel
-![Admin Panel](Images/admin-panel.jpg)
+![Admin Panel](Images/banaras.jpg)
 
 ### Booking Form
 ![Booking Form](Images/booking-form.jpg)
